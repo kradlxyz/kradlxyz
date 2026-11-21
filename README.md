@@ -1,16 +1,19 @@
-## Hi there 👋
+## Kradl — On-Chain App & Project Launchpad
 
-<!--
-**kradlxyz/kradlxyz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Fund real apps from block one.** Kradl is a non-custodial, multi-chain EVM launchpad for real software (Web2 & Web3) on **Robinhood Chain** and **Base**.
 
-Here are some ideas to get you started:
+- **App:** https://kradl.xyz
+- **X / Twitter:** https://x.com/kradlxyz
+- **Main Repository:** [kradlxyz/kradl](https://github.com/kradlxyz/kradl)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Core Architecture
+- Fair-launch `1B` fixed-supply ERC-20 (`KradlToken` — no mint, no tax, no blacklist)
+- Constant-product bonding curve with **0.5% continuous ETH builder fee** & automatic DEX graduation (`UniswapV3Migrator` / `UniswapV2Migrator`)
+- On-chain anti-rug `KradlVestingVault` (cliff + linear vesting) & `KradlMerkleDistributor`
+
+### Verified Contracts (Robinhood Chain Testnet · `46630`)
+| Contract | Address |
+| --- | --- |
+| `KradlLaunchpad` | `0x2FEE1b921F68A19bFdA0B587dff8bC245727D518` |
+| `KradlVestingVault` | `0xD02a30af2430FD2CCE14987016819AeD4744d20f` |
+| `KradlMerkleDistributor` | `0xe66D459b6E4E5b70Cb6129f827869E3e5D38E60C` |
